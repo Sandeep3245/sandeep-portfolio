@@ -3,11 +3,11 @@ pipeline {
     stages {
         stage('Go to folder') {
             steps {
-                dir('d/san/devops-portfolio') {
+                dir('D:/san/devops-portfolio') {
 
                     bat'''
-                    docker build -t sandeep portfolio
-                    docker run -d -p 8083:80 --name portfolio sandeep portfolio
+                    docker build -t sandeep-portfolio.
+                    docker run -d -p 8083:80 --name portfolio sandeep portfolio.
                     '''
                 }
             }
