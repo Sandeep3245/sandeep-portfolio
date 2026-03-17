@@ -7,7 +7,7 @@ pipeline {
 
                     bat'''
                     docker build -t sandeep-portfolio.
-                    docker run -d -p 8083:80 --name portfolio sandeep portfolio.
+                    docker run -d -p 8083:80 --name portfolio sandeep-portfolio.
                     '''
                 }
             }
