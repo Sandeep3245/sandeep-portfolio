@@ -1,2 +1,2 @@
-From nginx:latest
-copy index.html /user/share/ngnix/html/index.html
+FROM nginx:latest
+COPY index.html /usr/share/nginx/html/index.html
